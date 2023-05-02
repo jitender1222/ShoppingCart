@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Dropdown from "react-bootstrap/Dropdown";
 import { FaShoppingCart } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 import "../App.css";
 
 import Navbar from "react-bootstrap/Navbar";
@@ -13,7 +13,7 @@ const Header = () => {
       <Navbar bg="dark" variant="dark" style={{ height: 80 }}>
         <Container>
           <Navbar.Brand href="#home">
-            <a href="/">Shopping Cart</a>
+            <Link to="/">Shopping Cart</Link>
           </Navbar.Brand>
           <Navbar.Text>
             <Form.Control
@@ -24,7 +24,7 @@ const Header = () => {
           </Navbar.Text>
           <Dropdown>
             <Dropdown.Toggle variant="success" id="dropdown-basic">
-              <FaShoppingCart color="white" font-size="25px" />
+              <FaShoppingCart color="white" fontSize="25px" />
             </Dropdown.Toggle>
 
             <Dropdown.Menu style={{ backgroundColor: "tomato" }}>
