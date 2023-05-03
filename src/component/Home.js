@@ -5,7 +5,7 @@ import SingleProduct from "./SingleProduct";
 
 const Home = () => {
   const { state } = CartState();
-  // console.log(state.products);
+  // console.log("state", state);
   return (
     <div className="home">
       <Filters />

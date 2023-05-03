@@ -8,7 +8,7 @@ const SingleProduct = ({ prod }) => {
     state: { cart },
     dispatch,
   } = CartState();
-  console.log("Prod", prod);
+  console.log("Prod", cart);
 
   return (
     <div className="products">
