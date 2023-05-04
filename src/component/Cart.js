@@ -59,6 +59,7 @@ const Cart = () => {
                   <Button
                     type="button"
                     variant="light"
+                    blue
                     onClick={() =>
                       dispatch({
                         type: "REMOVE_FROM_CART",

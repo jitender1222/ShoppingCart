@@ -16,7 +16,7 @@ const Header = () => {
   const {
     state: { cart },
     dispatch,
-    productDispatch,
+    filterDispatch,
   } = CartState();
 
   return (
@@ -34,7 +34,7 @@ const Header = () => {
               className="m-auto"
               aria-label="Search"
               onChange={(e) => {
-                productDispatch({
+                filterDispatch({
                   type: "FILTER_BY_SEARCH",
                   payload: e.target.value,
                 });
