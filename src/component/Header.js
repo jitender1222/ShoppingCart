@@ -43,7 +43,7 @@ const Header = () => {
           </Navbar.Text>
         )}
         <Nav>
-          <Dropdown>
+          <Dropdown align={"end"}>
             <Dropdown.Toggle variant="success">
               <FaShoppingCart color="white" fontSize="25px" />
               <Badge>{cart.length}</Badge>

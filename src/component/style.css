@@ -33,6 +33,7 @@
   
   .home {
     display: flex;
+    border: 2px solid navy;
   }
   
   .filters {
@@ -41,6 +42,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 20%;
     margin: 10px;
     height: 86vh;
@@ -55,20 +57,22 @@
   }
   
   .productContainer {
+    width: 100%;
     display: flex;
-    width: 78%;
-    padding: 20px;
+    padding: 10px;
     flex-wrap: wrap;
     justify-content: space-around;
   }
   
   .products {
-    width: 30%;
+    width:20%;
     margin: 10px;
+    border: 1px solid green;
   }
   
   .summary {
-    width: 30%;
+    width: 20%;
+    border: 3px solid green;
   }
   
   /* Media Queries */
